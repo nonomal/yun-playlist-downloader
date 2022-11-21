@@ -8,12 +8,11 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "target": "es2019",
+    "target": "ES2020",
     "module": "CommonJS",
     "strictNullChecks": true
   },
   "ts-node": {
-    "transpileOnly": true,
     "swc": true
   }
 }

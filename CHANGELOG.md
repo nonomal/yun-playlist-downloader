@@ -1,5 +1,20 @@
 # 更新记录
 
+## 2022-11-18 v3.2.2
+
+- feat: make chunk size 500 -> 200, closes https://github.com/magicdawn/yun-playlist-downloader/issues/52
+
+## 2022-11-14 v3.2.1
+
+- fix broken publish
+
+## 2022-11-14 v3.2.0
+
+- 分片支持超大歌单, see https://github.com/magicdawn/yun-playlist-downloader/issues/51
+- `umi-request` -> `got`, 前者在 node v18 会触发 warning, 使用 node internal fetch
+- move to github actions
+- update deps
+
 ## 2022-04-25 v3.1.0
 
 - 支持 `--cookie` 默认读取 `yun.cookie.txt` 文件
